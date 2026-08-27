@@ -1,5 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next E-Commerce Frontend
 
+A full-featured e-commerce web application built with Next.js, React, Tailwind CSS, MongoDB, and Stripe, designed to provide customers with a modern online shopping experience.
+
+The application includes product browsing, shopping cart management, user authentication, checkout, online payment integration, responsive layouts, and interactive UI components. It uses MongoDB/Mongoose for data management, NextAuth for authentication, and Stripe for secure online payments.
+
+## Features
+
+- 🛍️ Product browsing and product details
+- 🛒 Shopping cart management
+- 👤 User authentication with NextAuth
+- 💳 Stripe online payment integration
+- 📦 Checkout and order workflow
+- 🔐 User account functionality
+- 🔔 Toast notifications
+- 🎨 Responsive UI with Tailwind CSS
+- ✨ Smooth animations with Framer Motion
+- 🖼️ Product and image presentation
+- 📱 Mobile-friendly design
+- 🗄️ MongoDB and Mongoose integration
+- ⚡ API communication with Axios
+- 🎞️ Product sliders and carousels
+
+## Tech Stack
+
+- **Next.js 13**
+- **React 18**
+- **JavaScript**
+- **Tailwind CSS**
+- **MongoDB**
+- **Mongoose**
+- **NextAuth**
+- **Stripe**
+- **Axios**
+- **Framer Motion**
+- **React Slick**
+- **React Icons**
+- **React Hot Toast**
+
+## Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```env
+MONGODB_URI=
+
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+
+PUBLIC_URL=http://localhost:3000
 ## Getting Started
 
 First, run the development server:
